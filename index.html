@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
-<body style="margin:0;">
-    <!-- 1. Загрузи PDF на Google Drive -->
-    <!-- 2. Открой доступ по ссылке -->
-    <!-- 3. Скопируй ID файла из ссылки -->
-    <!-- Пример ссылки: https://drive.google.com/file/d/XXXXXXXXXX/view -->
-    
-    <iframe 
-        src="https://drive.google.com/file/d/1hlU3ss1Kw7XB8Ug_KM8sJKseKdUX_B-n/view?usp=sharing"
-        style="width:100vw; height:100vh; border:none;">
-    </iframe>
+<head>
+    <title>Мой документ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- ЗАМЕНИ "ваш-fайл.pdf" на имя твоего PDF файла -->
+    <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/dikiydrozdik/-/main/ДР ПРИГЛАШ 28 (2).pdf"></iframe>
 </body>
 </html>
-
